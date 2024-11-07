@@ -12,8 +12,7 @@
         }
     },
 	"Hooks": {
-		"getUserPermissionsErrors": "main",
-		"DifferenceEngineShowDiff": "main"
+		"getUserPermissionsErrors": "main"
 	},
 	"MessagesDirs": {
 		"DiffBlocker": [
