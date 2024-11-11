@@ -3,7 +3,8 @@
 	"name": "DiffBlocker",
 	"author": ["Jacob G. (jvvg)"],
 	"AutoloadClasses": {
-		"DiffBlocker": "DiffBlocker.php"
+		"DiffBlocker": "DiffBlocker.php",
+		"SpecialAllowAnonDiffViewing": "SpecialAllowAnonDiffViewing.php"
 	},
 	"HookHandlers": {
         "main": {
@@ -11,6 +12,11 @@
             "services": [ ]
         }
     },
+	"SpecialPages": {
+		"AllowAnonDiffViewing": {
+			"class": "SpecialAllowAnonDiffViewing"
+		}
+	},
 	"Hooks": {
 		"getUserPermissionsErrors": "main"
 	},

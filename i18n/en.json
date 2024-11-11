@@ -1,3 +1,6 @@
 {
-	"diffblocker-login-required": "You must be logged in to view differences between revisions."
+	"diffblocker-login-required": "Please confirm you are a human to view differences between revisions by going to [[Special:AllowAnonDiffViewing|this form]].",
+	"diffblocker-anon-diff-form-content": "Click the \"Allow\" button below to allow viewing differences between revisions.",
+	"diffblocker-anon-diff-success": "Success! You can now view differences between revisions.",
+	"allowanondiffviewing": "Allow Anonymous Diff Viewing"
 }
